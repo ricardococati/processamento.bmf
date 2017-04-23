@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>processamento.bmf</name>
-	<description>Projeto Spring Batch para o Tiquei</description>
+	<description>Projeto Spring Batch para a BMF</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
