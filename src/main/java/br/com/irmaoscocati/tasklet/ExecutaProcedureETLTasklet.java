@@ -18,7 +18,7 @@ import org.springframework.jdbc.core.simple.SimpleJdbcCall;
 
 public class ExecutaProcedureETLTasklet implements Tasklet {
 
-	private static final String ESQUEMA_EXECUCAO_PROC = "tiquei";
+	private static final String ESQUEMA_EXECUCAO_PROC = "bmf";
 	private static final String NOME_PROC = "prcProcessBMF";
 	private static final String NOME_ARGUMENTO_PROC = "ptsProcesso";
 	private static final Logger log = LoggerFactory.getLogger(ExecutaProcedureETLTasklet.class);

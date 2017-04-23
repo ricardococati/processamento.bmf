@@ -36,7 +36,7 @@ public class ProdutoOperadoraDAO implements IProdutoOperadoraDAO, Serializable {
 		query.append("  	po.idOperadora, ");
 		query.append("  	po.codProdOperadora ");
 		query.append("FROM ");
-		query.append("  tiquei.ProdutoOperadora po ");
+		query.append("  bmf.ProdutoOperadora po ");
 		query.append("WHERE");
 		query.append("  po.codProdOperadora = ? ");
 		query.append("  AND po.idOperadora = " + ID_OPERADORA_CIELO);

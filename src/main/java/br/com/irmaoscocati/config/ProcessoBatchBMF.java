@@ -52,7 +52,7 @@ import br.com.irmaoscocati.util.ScriptUtil;
 @ComponentScan("br.com.irmaoscocati")
 @EnableCaching
 @EnableBatchProcessing
-@PropertySource("file:/data/tiquei-batch/bmf/config/application.properties")
+@PropertySource("file:/data/bmf-batch/bmf/config/application.properties")
 public class ProcessoBatchBMF {
 
 	@Autowired

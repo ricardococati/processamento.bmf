@@ -9,7 +9,7 @@ public class BMFLayOutHeader {
 	private String[] strArrCampos;
 	private Range[] numArrRanges;
 	private static final String TIPO_REGISTRO = "tipoRegistro";
-	private static final Range RANGE_TIPO_REGISTRO = new Range(1,1);
+	private static final Range RANGE_TIPO_REGISTRO = new Range(1,2);
 	private static final String DATA_PROCESSAMENTO = "dataProcessamento";
 	private static final Range RANGE_DATA_PROCESSAMENTO = new Range(12,19);
 	private static final String NUMERO_SEQUENCIAL = "numeroSequencial";

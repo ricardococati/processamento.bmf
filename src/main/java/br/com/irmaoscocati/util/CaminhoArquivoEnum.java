@@ -2,11 +2,11 @@ package br.com.irmaoscocati.util;
 
 public enum CaminhoArquivoEnum {
 
-	CAMINHO_ARQUIVO_PROCESSO("file:/data/tiquei-batch/bmf/execucao/*"),//
-	CAMINHO_ARQUIVO_ENTRADA("/data/tiquei-batch/bmf/entrada/"), //
-	CAMINHO_ARQUIVO_ERRO("/data/tiquei-batch/bmf/erro/"),//
-	CAMINHO_ARQUIVO_EXECUCAO("/data/tiquei-batch/bmf/execucao/"),//
-	CAMINHO_ARQUIVO_SAIDA("/data/tiquei-batch/bmf/saida/");
+	CAMINHO_ARQUIVO_PROCESSO("file:/data/bmf-batch/bmf/execucao/*"),//
+	CAMINHO_ARQUIVO_ENTRADA("/data/bmf-batch/bmf/entrada/"), //
+	CAMINHO_ARQUIVO_ERRO("/data/bmf-batch/bmf/erro/"),//
+	CAMINHO_ARQUIVO_EXECUCAO("/data/bmf-batch/bmf/execucao/"),//
+	CAMINHO_ARQUIVO_SAIDA("/data/bmf-batch/bmf/saida/");
 
 	private String caminho;
 
