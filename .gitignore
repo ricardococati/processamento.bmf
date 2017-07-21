@@ -14,6 +14,7 @@ local.properties
 .settings/
 .loadpath
 .recommenders
+*.directory
 
 # Eclipse Core
 .project
@@ -125,7 +126,6 @@ fabric.properties
 *.jar
 *.war
 *.ear
-*.zip
 *.tar.gz
 *.rar
 
@@ -150,4 +150,4 @@ buildNumber.properties
 .svn/
 
 # End of https://www.gitignore.io/api/java,maven,eclipse,svn,intellij
-/.directory
+/build/
